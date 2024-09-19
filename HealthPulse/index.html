@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthPulse - Home</title>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="Diesease.html">Symptoms</a>
+        <a href="NewsUpdate.html">News Update</a> 
+        <a href="Map.html">Map List</a>
+    </div>
+
+    <div class="header">
+        <p>HealthPulse is your go-to source for understanding various diseases and their symptoms.</p>
+        <p>Explore our site to learn more about health and wellness.</p>
+        <img src="./Images/Image1.jpeg" alt="HealthPulse Image">
+    </div>
+
+    <!-- News Articles Section -->
+    <div class="news-articles">
+        <!-- News Article 1 -->
+        <div class="news-article">
+            <h2>New Breakthrough in Diabetes Treatment</h2>
+            <p><strong>Date:</strong> August 30, 2024</p>
+            <p>Researchers have developed a new treatment that significantly improves glucose control in patients with type 2 diabetes. This new drug, currently in the final stages of clinical trials, could become a game-changer in diabetes management...</p>
+            <a href="#">Read more</a>
+        </div>
+
+        <!-- News Article 2 -->
+        <div class="news-article">
+            <h2>How AI is Revolutionizing Mental Health Care</h2>
+            <p><strong>Date:</strong> August 28, 2024</p>
+            <p>Artificial intelligence is increasingly being integrated into mental health care, providing new tools for diagnosing, treating, and managing mental health conditions. Experts believe that AI could help in offering personalized care...</p>
+            <a href="#">Read more</a>
+        </div>
+
+        <!-- News Article 3 -->
+        <div class="news-article">
+            <h2>Advancements in Cancer Immunotherapy</h2>
+            <p><strong>Date:</strong> August 25, 2024</p>
+            <p>A new study shows promising results in cancer immunotherapy, with researchers reporting a significant increase in patient survival rates. The study focuses on using personalized vaccines to enhance the body's immune response against cancer cells...</p>
+            <a href="#">Read more</a>
+        </div>
+    </div>
+
+    <!-- New Section for Council Center -->
+    <div class="council-section">
+        <h2>Council Center for Disease and Mental Health, Coimbatore</h2>
+        <p>The Council Center for Disease and Mental Health in Coimbatore is dedicated to promoting mental health and providing support for those affected by various diseases. The center offers a wide range of services, including counseling, treatment programs, and community outreach initiatives.</p>
+        <table>
+            <tr>
+                <th>Service</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Counseling</td>
+                <td>Personalized counseling sessions to address mental health concerns and offer support.</td>
+            </tr>
+            <tr>
+                <td>Treatment Programs</td>
+                <td>Comprehensive treatment programs tailored to individual needs.</td>
+            </tr>
+            <tr>
+                <td>Community Outreach</td>
+                <td>Programs aimed at raising awareness and promoting mental health in the community.</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 HealthPulse. All rights reserved.</p>
+    </footer>
+
+    <!-- Dialogflow Chatbot Script -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="TESTBOT"
+      agent-id="9f28526b-2e08-48fa-825e-a03f85dd7662"
+      language-code="en"
+    ></df-messenger>
+</body>
+</html>
