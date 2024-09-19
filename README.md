@@ -1,4 +1,4 @@
-# Disease Awareness Project
+# Hospital Near YOU
 
 Welcome to the Disease Awareness Project! This project includes various components to provide information about a specific disease, including a home page, a map page, a news update section, and the necessary styles.
 
