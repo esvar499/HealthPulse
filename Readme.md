@@ -40,4 +40,4 @@ To get started with this project, follow these steps:
 
 1. Clone the repository:
    ```bash
-  [ git clone https://github.com/yourusername/disease-awareness-project.git](https://github.com/esvar499/HealthPulse/edit/main/README.md)
+  [ git clone https://github.com/esvar499/HealthPulse.git](https://github.com/esvar499/HealthPulse/edit/main/README.md)
